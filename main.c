@@ -32,6 +32,10 @@ int main(int argc, char **argv) {
         }
     }
 
+    if (argc == 2) {
+        return exit_message(EXIT_INVALID_CNT_PARAM);
+    }
+
     FILE *src = fopen(argv[1], "r");
 
     if (src == NULL) {
