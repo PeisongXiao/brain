@@ -18,6 +18,9 @@ Note that you must specify at least one option.
   -v          Outputs the current version
   -h          Displays the manual page
 ```
+### Extra dependencies
+- nasm
+- ld
 ## Cleanup
 ```
 make clean
